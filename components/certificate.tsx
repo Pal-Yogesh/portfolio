@@ -96,7 +96,7 @@ export function AllCertificate() {
           >
             {certificates.map((cert, index) => (
               <SwiperSlide 
-              style={{width:"240px", height:"280px"}}
+              style={{width:"220px", height:"280px"}}
               key={index} className="flex flex-col items-center w-[200px] border border-white shadow-lg rounded-2xl">
                 <div
                   className="w-full  rounded-b-2xl flex items-center justify-center bg-neutral-800"
@@ -107,7 +107,7 @@ export function AllCertificate() {
                     alt="certificate"
                     width={1000}
                     height={1000}
-                    className="object-cover p-2 w-[240px] h-[280px] rounded-2xl"
+                    className="object-cover p-1 w-[220px] h-[280px] rounded-2xl"
                   />
                 </div>
 
