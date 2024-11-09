@@ -62,10 +62,10 @@ export default function Home() {
           <div className="flex w-full h-[100vh]  bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
 
             <div className="w-[50%] ">
-              <div className="flex justify-center items-center">
+              <div className="pl-14">
 
                 <Image
-                  src="/assets/yogeshlogo.jpeg"
+                  src="/assets/yogeshlogo.png"
                   alt="hero"
                   width={200}
                   height={100} />
@@ -74,9 +74,15 @@ export default function Home() {
               <FlipWords words={words} />
             </div>
             <div className="w-[50%] ">
-              <div className="w-[300px] h-[220px] hidden md:block">
+              {/* <div className="w-[300px] h-[220px] hidden md:block">
 
                 <IconCloud iconSlugs={slugs} />
+              </div> */}
+              <div className="flex justify-center items-center md:mt-48 mt-24">
+                <div className="border-neutral-800 border rounded-full overflow-hidden ">
+
+                <Image src="/assets/photo.png" width={1000} height={1000} alt="img" className="md:w-[390px] md:h-[390px] object-contain" />
+                </div>
               </div>
             </div>
           </div>
@@ -120,7 +126,7 @@ export default function Home() {
 
 
           </div>
-          <div className=" md:h-[60vh] h-[30vh] bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+          <div className="md:pt-10 md:h-[60vh] h-[30vh] bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
             <AllCertificate />
           </div>
 

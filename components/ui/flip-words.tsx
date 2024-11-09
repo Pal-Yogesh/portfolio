@@ -29,8 +29,8 @@ export const FlipWords = ({
     }, [isAnimating, duration, startAnimation]);
 
     return (
-        <div className="p-10 text-4xl font-normal text-neutral-600 dark:text-neutral-400 md:flex md:flex-row items-center justify-center">
-            <div className=" mr-1 whitespace-nowrap">I&apos;m <br /> <br /> <span className="text-white font-bold text-5xl">Yogesh Pal</span></div> 
+        <div className="md:p-28 p-14 text-4xl mt-48 md:mt-0 font-normal text-neutral-600 dark:text-neutral-400 ">
+            <div className=" mr-1 whitespace-nowrap">I&apos;m <br /> <br /> <span className="text-white font-bold text-6xl">Yogesh Pal</span></div> 
 
             <br />
 
@@ -63,7 +63,7 @@ export const FlipWords = ({
                             position: "absolute",
                         }}
                         className={cn(
-                            "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2",
+                            "z-10 inline-block relative text-left text-neutral-600 dark:text-neutral-200 px-2",
                             className
                         )}
                         key={currentWord}
