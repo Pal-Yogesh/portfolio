@@ -1,0 +1,31 @@
+/* .card{
+   animation: spinnns 5s;
+} */
+
+
+.card1 {
+    transform: translate(0px,0px) rotate(0deg);
+    
+}
+
+.card2 {
+    transform: translate(45px, 85px) rotate(30deg);
+   
+}
+
+.card3 {
+    transform: translate(15px, 335px) rotate(60deg);
+    
+}
+
+.card4 {
+    transform:  translate(-170px, 685px)  rotate(90deg);
+    
+}
+
+.card5{
+    transform: translate(-540px, 1050px) rotate(120deg);
+   
+}
+
+
