@@ -211,6 +211,13 @@ const tools = [
         image:
             "/assets/postman.png",
     },
+    {
+        id: 6,
+        name: "EmailJS",
+        designation: "client-side tool",
+        image:
+            "/assets/emailjs.svg",
+    },
     // {
     //     id: 5,
     //     name: "linux",
