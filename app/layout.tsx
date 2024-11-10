@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Dock } from "@/components/dock";
+import Chat from "@/components/chat";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,6 +35,7 @@ export default function RootLayout({
       >
         {children}
         <Dock />
+        <Chat />
       </body>
     </html>
   );
