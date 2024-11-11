@@ -1,10 +1,10 @@
 "use client";
 import { useEffect } from "react";
 
-// Component for Intelliticks chat widget
+
 const Chat: React.FC = () => {
     useEffect(() => {
-        // Intelliticks script
+        
         (function (
             I: any,
             L: string,
