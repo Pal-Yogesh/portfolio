@@ -62,7 +62,7 @@ export function Dock() {
             href: "https://www.linkedin.com/in/yogesh-pal-7118a023b/",
         },
         {
-            title: "mail",
+            title: "instagram",
             icon: (
                 <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
