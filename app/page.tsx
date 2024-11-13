@@ -34,8 +34,8 @@ export default function Home() {
             // }}
           >
 
-            <div className="w-[50%] ">
-              <div className="px-20 pt-3">
+            <div className="w-full md:w-[50%] ">
+              <div className="md:px-20 px-4 pt-3">
 
               <Image
                 src="/assets/yogeshlogo.png"
@@ -46,7 +46,7 @@ export default function Home() {
 
               <FlipWords words={words} />
 
-              <div className="text-xl px-24 font-normal text-neutral-600 dark:text-neutral-400 pt-8 text-justify">
+              <div className="text-xl px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-400 pt-4 md:pt-8 text-justify">
 
                 I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
                 Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
@@ -67,7 +67,7 @@ export default function Home() {
                 {/* </div> */}
               </div>
             </div>
-            <div className="w-[50%] ">
+            <div className="w-[50%] hidden md:block ">
               
               <div className="flex justify-center items-center mt-32 ">
 

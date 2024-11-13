@@ -29,12 +29,12 @@ export const FlipWords = ({
     }, [isAnimating, duration, startAnimation]);
 
     return (
-        <div className="md:px-24 text-4xl mt-48 md:mt-20 font-normal text-neutral-600 dark:text-neutral-400 ">
-            <div className=" mr-1 whitespace-nowrap">Hello!! <br /> <span>I&apos;m </span>  <span className="text-white font-bold text-6xl">Yogesh Pal</span></div>
+        <div className="md:px-24 px-10 text-4xl mt-20 md:mt-20 font-normal text-neutral-600 dark:text-neutral-400 ">
+            <div className=" mr-1 whitespace-nowrap">Hello!! <br /> <span>I&apos;m </span>  <span className="text-white font-bold text-4xl md:text-6xl">Yogesh Pal</span></div>
 
             <br />
 
-            <div className="relative w-full max-w-[200px] sm:max-w-none">
+            <div className="relative w-full  sm:max-w-none">
                 <AnimatePresence
                     onExitComplete={() => {
                         setIsAnimating(false);
