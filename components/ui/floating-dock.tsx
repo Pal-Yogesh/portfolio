@@ -37,12 +37,12 @@ const FloatingDockMobile = ({
 }) => {
     const [open, setOpen] = useState(false);
     return (
-        <div className={cn("fixed bottom-4 right-4 block md:hidden", className)}>
+        <div className={cn("fixed bottom-4 left-4 block md:hidden", className)}>
             <AnimatePresence>
                 {open && (
                     <motion.div
                         layoutId="nav"
-                        className="absolute bottom-full right-0 mb-2 flex flex-col gap-2"
+                        className="absolute bottom-full left-[9px] mb-2 flex flex-col gap-2"
                     >
                         {items.map((item, idx) => (
                             <motion.div
@@ -64,9 +64,9 @@ const FloatingDockMobile = ({
                                 <Link
                                     href={item.href}
                                     key={item.title}
-                                    className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
+                                    className="h-12 w-12 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
                                 >
-                                    <div className="h-4 w-4">{item.icon}</div>
+                                    <div className="h-8 w-8">{item.icon}</div>
                                 </Link>
                             </motion.div>
                         ))}
@@ -75,9 +75,9 @@ const FloatingDockMobile = ({
             </AnimatePresence>
             <button
                 onClick={() => setOpen(!open)}
-                className="h-12 w-12 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center shadow-lg"
+                className="h-16 w-16 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center shadow-lg"
             >
-                <IconLayoutNavbarCollapse className="h-6 w-6 text-neutral-500 dark:text-neutral-400" />
+                <IconLayoutNavbarCollapse className="h-8 w-8 text-neutral-500 dark:text-neutral-400" />
             </button>
         </div>
     );
