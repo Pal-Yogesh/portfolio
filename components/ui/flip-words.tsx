@@ -29,8 +29,8 @@ export const FlipWords = ({
     }, [isAnimating, duration, startAnimation]);
 
     return (
-        <div className="md:p-28 p-14 text-4xl mt-48 md:mt-0 font-normal text-neutral-600 dark:text-neutral-400 ">
-            <div className=" mr-1 whitespace-nowrap">I&apos;m <br /> <br /> <span className="text-white font-bold text-6xl">Yogesh Pal</span></div> 
+        <div className="md:px-24 text-4xl mt-48 md:mt-20 font-normal text-neutral-600 dark:text-neutral-400 ">
+            <div className=" mr-1 whitespace-nowrap">Hello!! <br /> <span>I&apos;m </span>  <span className="text-white font-bold text-6xl">Yogesh Pal</span></div>
 
             <br />
 

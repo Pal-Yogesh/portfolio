@@ -2,88 +2,86 @@
 
 // import { Cards } from "../components/cards";
 
-import { BackgroundLines } from "@/components/ui/background-lines";
+// import { BackgroundLines } from "@/components/ui/background-lines";
 import { FlipWords } from "@/components/ui/flip-words";
 // import { ExpandableCard } from "@/components/cards2";
 // import { ThreeDCard } from "@/components/cards3";
 import { Techstacks } from "@/components/techstacks";
 import Link from "next/link";
-import IconCloud from "@/components/ui/icon-cloud";
 import Image from "next/image";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { ExperienceTimeline } from "@/components/experiencetimeline";
 import { AllCertificate } from "@/components/certificate";
 import GetInTouch from "@/components/getintouch";
 
-const slugs = [
-  "typescript",
-  "javascript",
-  "dart",
-  "java",
-  "react",
-  "flutter",
-  "android",
-  "html5",
-  "css3",
-  "nodedotjs",
-  "express",
-  "nextdotjs",
-  "prisma",
-  "amazonaws",
-  "postgresql",
-  "firebase",
-  "nginx",
-  "vercel",
-  "testinglibrary",
-  "jest",
-  "cypress",
-  "docker",
-  "git",
-  "jira",
-  "github",
-  "gitlab",
-  "visualstudiocode",
-  "androidstudio",
-  "sonarqube",
-  "figma",
-];
+
 
 
 
 
 
 export default function Home() {
-  const words = ["Web Developer", "Front-End Developer", "open to work"];
+  const words = ["<Full Stack Developer />" ,"<Web Developer />", "<Front-End Developer />"];
   return (
     <>
 
       <div className="relative min-h-screen pb-52 ">
-        <BackgroundLines >
-          <div className="flex w-full h-[100vh]  bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+        {/* <BackgroundLines > */}
+          <div
+            className="flex w-full pb-24  bg-gradient-to-bl from-[#1a1a1a] to-[#000000]"
+            // style={{
+            //   background: "linear-gradient(360deg, rgba(2, 71, 142, 0.4) 0%, rgba(2, 71, 142, 0) 100%)",
+            // }}
+          >
 
             <div className="w-[50%] ">
-              <div className="pl-14">
+              <div className="px-20 pt-3">
 
-                <Image
-                  src="/assets/yogeshlogo.png"
-                  alt="hero"
-                  width={200}
-                  height={100} />
+              <Image
+                src="/assets/yogeshlogo.png"
+                alt="hero"
+                width={1000}
+                height={1000} className="w-[100px] h-[100px]" />
               </div>
 
               <FlipWords words={words} />
+
+              <div className="text-xl px-24 font-normal text-neutral-600 dark:text-neutral-400 pt-8 text-justify">
+
+                I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
+                Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
+              </div>
+              {/* <div className="flex justify-center items-center"> */}
+
+              <div className="flex justify-center items-center m-5  cursor-pointer"
+
+              >
+
+                <a
+
+                  href="/assets/Yogesh_SWE_Resume.pdf"
+                  download
+                  className="inline-flex cursor-pointer  h-14 w-40 text-lg animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-extrabold text-slate-400 transition-colors focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">Resume
+                </a>
+
+                {/* </div> */}
+              </div>
             </div>
             <div className="w-[50%] ">
-              {/* <div className="w-[300px] h-[220px] hidden md:block">
+              
+              <div className="flex justify-center items-center mt-32 ">
 
-                <IconCloud iconSlugs={slugs} />
-              </div> */}
-              <div className="flex justify-center items-center md:mt-48 mt-24">
-                <div className="border-neutral-800 border rounded-full overflow-hidden ">
 
-                <Image src="/assets/photo.png" width={1000} height={1000} alt="img" className="md:w-[390px] md:h-[390px] object-contain" />
+                <Image src="/assets/design.gif" width={1000} height={1000} alt="gif" className="w-[750px] h-[550px] z-[9999]" />
+
+                <div className="flex justify-center items-center mt-[350px] absolute ">
+
+
+                  <Image src="/assets/bottom.svg" width={1000} height={1000} alt="img" className="w-[550px] h-[200px]" />
+
                 </div>
               </div>
+
             </div>
           </div>
 
@@ -130,7 +128,7 @@ export default function Home() {
             <AllCertificate />
           </div>
 
-        </BackgroundLines >
+        {/* </BackgroundLines > */}
       </div >
       <div className="mb-20 bg-[#1a1a1a]">
         <GetInTouch />
