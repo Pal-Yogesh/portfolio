@@ -95,10 +95,19 @@ export default function Home() {
         </div>
 
 
-        <div className="">
+        <div className=""
+        style={{
+          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+        }}
+        >
           <ExperienceTimeline />
         </div>
-        <div className="z-0 relative bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+        {/* <div className="z-0 relative bg-gradient-to-bl from-[#1a1a1a] to-[#000000]"> */}
+        <div className="z-0 relative "
+          style={{
+            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+          }}
+        >
 
 
           <div className="flex justify-center items-center p-10">
@@ -127,9 +136,16 @@ export default function Home() {
 
 
         </div>
-        <div className="md:pt-10 md:h-[60vh] h-[30vh] bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+        <div className="md:pt-10 md:h-[60vh] h-[30vh]"
+        style={{
+          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+        }}
+        >
           <AllCertificate />
         </div>
+        {/* <div className="md:pt-10 md:h-[60vh] h-[30vh] bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+          <AllCertificate />
+        </div> */}
 
         {/* </BackgroundLines > */}
       </div >

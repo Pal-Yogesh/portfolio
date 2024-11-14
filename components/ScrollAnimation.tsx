@@ -48,15 +48,17 @@ export default function ScrollAnimation() {
   return (
     <>
       <div
-  ref={boxRef}
-  className="some h-[85vh] flex justify-center w-full relative overflow-hidden"
-  style={{
-    background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -100%, rgba(0, 0, 0, 1) 100%)",
-  }}
->
+        ref={boxRef}
+        className="some h-[85vh] flex justify-center w-full relative overflow-hidden"
+        style={{
+          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+        }}
+      >
+
+
         <div className="h-[100px]  flex justify-center items-center pt-10 md:pt-0  text-center md:text-start  md:pl-24 w-full">
           <p className=" text-center  md:text-[40px]   pt-8 md:pt-4 text-4xl font-bold text-[#4b4c4f]  dark:text-neutral-400">
-             Projects
+            Projects
           </p>
         </div>
         <div
@@ -85,7 +87,7 @@ export default function ScrollAnimation() {
             />{" "}
             <Link href="https://www.goedu.in/" target="_blank">
               <button className="w-[220px] mt-5 text-[1rem] text-neutral-500 dark:text-neutral-400 h-[50px] rounded-lg bg-[#1a1a1a]">
-              GOEDU
+                GOEDU
               </button>
             </Link>
           </div>

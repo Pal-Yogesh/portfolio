@@ -38,7 +38,11 @@ export default function GetInTouch() {
   }
 
   return (
-    <section className="bg-black py-24 md:py-10 px-6 md:px-12 lg:px-24 bg-gradient-to-b from-[#1a1a1a]  to-[#000000]">
+    <section className="bg-black py-24 md:py-10 px-6 md:px-12 lg:px-24"
+    style={{
+      background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+    }}
+    >
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-[#4b4c4f] text-center">Get in Touch</h2>
         <p className="text-[#4b4c4f] mt-2 text-center">We would love to hear from you. Fill out the form below!</p>

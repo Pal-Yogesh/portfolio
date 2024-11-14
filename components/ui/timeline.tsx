@@ -34,7 +34,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 bg-gradient-to-bl from-[#1a1a1a] to-[#000000]"
+      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 "
+      style={{
+        background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+      }}
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto pt-20 px-4 md:px-8 lg:px-10">
