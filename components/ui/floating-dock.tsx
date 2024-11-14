@@ -95,7 +95,7 @@ const FloatingDockDesktop = ({
     return (
         <motion.div
         style={{
-            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -210%, rgba(0, 0, 0, 1) 100%)",
+            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -320%, rgba(0, 0, 0, 1) 100%)",
           }}
             onMouseMove={(e) => mouseX.set(e.pageX)}
             onMouseLeave={() => mouseX.set(Infinity)}

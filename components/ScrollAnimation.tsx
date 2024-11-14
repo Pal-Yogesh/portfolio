@@ -51,7 +51,7 @@ export default function ScrollAnimation() {
         ref={boxRef}
         className="some h-[85vh] flex justify-center w-full relative overflow-hidden"
         style={{
-          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
         }}
       >
 

@@ -40,7 +40,7 @@ export default function GetInTouch() {
   return (
     <section className="bg-black py-24 md:py-10 px-6 md:px-12 lg:px-24"
     style={{
-      background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
     }}
     >
       <div className="max-w-3xl mx-auto text-center">

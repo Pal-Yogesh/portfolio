@@ -30,7 +30,7 @@ export const FlipWords = ({
 
     return (
         <div className="md:px-24 px-10 text-4xl mt-20 md:mt-20 font-normal text-neutral-600 dark:text-neutral-400 ">
-            <div className=" mr-1 whitespace-nowrap">Hello!! <br /> <span>I&apos;m </span>  <span className="text-white font-bold text-4xl md:text-6xl">Yogesh Pal</span></div>
+            <div className="text-[#00BBF9] mr-1 whitespace-nowrap">Hello!! <br /> <br /> <span className="text-white ">I&apos;m </span>  <span className="text-[#02478E] font-bold text-4xl md:text-6xl">Yogesh Pal</span></div>
 
             <br />
 

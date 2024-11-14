@@ -49,7 +49,7 @@ export default function Home() {
 
             <FlipWords words={words} />
 
-            <div className="text-xl px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-400 pt-4 md:pt-8 text-justify">
+            <div className="text-xl px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-300 pt-4 md:pt-8 text-justify">
 
               I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
               Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
@@ -97,7 +97,7 @@ export default function Home() {
 
         <div className=""
         style={{
-          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
         }}
         >
           <ExperienceTimeline />
@@ -105,7 +105,7 @@ export default function Home() {
         {/* <div className="z-0 relative bg-gradient-to-bl from-[#1a1a1a] to-[#000000]"> */}
         <div className="z-0 relative "
           style={{
-            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
           }}
         >
 
@@ -138,7 +138,7 @@ export default function Home() {
         </div>
         <div className="md:pt-10 md:h-[60vh] h-[30vh]"
         style={{
-          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -250%, rgba(0, 0, 0, 1) 100%)",
+          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -170%, rgba(0, 0, 0, 1) 100%)",
         }}
         >
           <AllCertificate />
