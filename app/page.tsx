@@ -27,13 +27,17 @@ export default function Home() {
 
       <div className="relative min-h-screen pb-52 ">
         {/* <BackgroundLines > */}
-        <div
+        {/* <div
           className="flex w-full pb-24"
           style={{
             backgroundImage: "url('/assets/homebg.svg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
+        > */}
+
+        <div
+          className="flex w-full pb-24 bg-[url('/assets/mobilehomebg.svg')] md:bg-[url('/assets/homebg.svg')] bg-cover bg-center"
         >
 
 
@@ -56,7 +60,7 @@ export default function Home() {
             </div>
             {/* <div className="flex justify-center items-center"> */}
 
-            <div className="flex justify-center items-center m-5  cursor-pointer"
+            <div className="flex justify-center items-center pt-14 md:m-5  cursor-pointer"
 
             >
 
@@ -96,9 +100,9 @@ export default function Home() {
 
 
         <div className=""
-        style={{
-          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
-        }}
+          style={{
+            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
+          }}
         >
           <ExperienceTimeline />
         </div>
@@ -137,9 +141,9 @@ export default function Home() {
 
         </div>
         <div className="md:pt-10 md:h-[60vh] h-[30vh]"
-        style={{
-          background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -170%, rgba(0, 0, 0, 1) 100%)",
-        }}
+          style={{
+            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -170%, rgba(0, 0, 0, 1) 100%)",
+          }}
         >
           <AllCertificate />
         </div>
