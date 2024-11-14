@@ -48,9 +48,12 @@ export default function ScrollAnimation() {
   return (
     <>
       <div
-        ref={boxRef}
-        className="some h-[85vh] flex justify-center w-full bg-gradient-to-br from-[#1a1a1a] to-[#000000] relative overflow-hidden"
-      >
+  ref={boxRef}
+  className="some h-[85vh] flex justify-center w-full relative overflow-hidden"
+  style={{
+    background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -100%, rgba(0, 0, 0, 1) 100%)",
+  }}
+>
         <div className="h-[100px]  flex justify-center items-center pt-10 md:pt-0  text-center md:text-start  md:pl-24 w-full">
           <p className=" text-center  md:text-[40px]   pt-8 md:pt-4 text-4xl font-bold text-[#4b4c4f]  dark:text-neutral-400">
              Projects

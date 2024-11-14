@@ -21,112 +21,115 @@ import GetInTouch from "@/components/getintouch";
 
 
 export default function Home() {
-  const words = ["<Full Stack Developer />" ,"<Web Developer />", "<Front-End Developer />"];
+  const words = ["<Full Stack Developer />", "<Web Developer />", "<Front-End Developer />"];
   return (
     <>
 
       <div className="relative min-h-screen pb-52 ">
         {/* <BackgroundLines > */}
-          <div
-            className="flex w-full pb-24  bg-gradient-to-bl from-[#1a1a1a] to-[#000000]"
-            // style={{
-            //   background: "linear-gradient(360deg, rgba(2, 71, 142, 0.4) 0%, rgba(2, 71, 142, 0) 100%)",
-            // }}
-          >
+        <div
+          className="flex w-full pb-24"
+          style={{
+            backgroundImage: "url('/assets/homebg.svg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
 
-            <div className="w-full md:w-[50%] ">
-              <div className="md:px-20 px-4 pt-3">
+
+          <div className="w-full md:w-[50%] ">
+            <div className="md:px-20 px-4 pt-3">
 
               <Image
                 src="/assets/yogeshlogo.png"
                 alt="hero"
                 width={1000}
                 height={1000} className="w-[100px] h-[100px]" />
-              </div>
-
-              <FlipWords words={words} />
-
-              <div className="text-xl px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-400 pt-4 md:pt-8 text-justify">
-
-                I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
-                Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
-              </div>
-              {/* <div className="flex justify-center items-center"> */}
-
-              <div className="flex justify-center items-center m-5  cursor-pointer"
-
-              >
-
-                <a
-
-                  href="/assets/Yogesh_SWE_Resume.pdf"
-                  download
-                  className="inline-flex cursor-pointer  h-14 w-40 text-lg animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-extrabold text-slate-400 transition-colors focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">Resume
-                </a>
-
-                {/* </div> */}
-              </div>
-            </div>
-            <div className="w-[50%] hidden md:block ">
-              
-              <div className="flex justify-center items-center mt-32 ">
-
-
-                <Image src="/assets/design.gif" width={1000} height={1000} alt="gif" className="w-[750px] h-[550px] z-[9999]" />
-
-                <div className="flex justify-center items-center mt-[350px] absolute ">
-
-
-                  <Image src="/assets/bottom.svg" width={1000} height={1000} alt="img" className="w-[550px] h-[200px]" />
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-
-          <div className="w-full">
-            <ScrollAnimation />
-          </div>
-
-
-          <div className="">
-            <ExperienceTimeline />
-          </div>
-          <div className="z-0 relative bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
-
-
-            <div className="flex justify-center items-center p-10">
-              <Link href="/allprojects">
-                <button type="submit" className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-extrabold text-slate-400 transition-colors focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">all projects here &rarr;
-                </button>
-              </Link>
             </div>
 
+            <FlipWords words={words} />
+
+            <div className="text-xl px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-400 pt-4 md:pt-8 text-justify">
+
+              I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
+              Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
+            </div>
+            {/* <div className="flex justify-center items-center"> */}
+
+            <div className="flex justify-center items-center m-5  cursor-pointer"
+
+            >
+
+              <a
+
+                href="/assets/Yogesh_SWE_Resume.pdf"
+                download
+                className="inline-flex cursor-pointer  h-14 w-40 text-lg animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-extrabold text-slate-400 transition-colors focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">Resume
+              </a>
+
+              {/* </div> */}
+            </div>
+          </div>
+          <div className="w-[50%] hidden md:block ">
+
+            <div className="flex justify-center items-center mt-32 ">
 
 
+              <Image src="/assets/design.gif" width={1000} height={1000} alt="gif" className="w-[750px] h-[550px] z-[9999]" />
 
-            <span className="flex justify-center items-center text-4xl font-bold text-[#4b4c4f]">Tech Stacks</span><br />
-            <Techstacks />
-            <br />
-
+              <div className="flex justify-center items-center mt-[350px] absolute ">
 
 
+                <Image src="/assets/bottom.svg" width={1000} height={1000} alt="img" className="w-[550px] h-[200px]" />
 
-
-
-
-
-
-
-
+              </div>
+            </div>
 
           </div>
-          <div className="md:pt-10 md:h-[60vh] h-[30vh] bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
-            <AllCertificate />
+        </div>
+
+
+
+        <div className="w-full">
+          <ScrollAnimation />
+        </div>
+
+
+        <div className="">
+          <ExperienceTimeline />
+        </div>
+        <div className="z-0 relative bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+
+
+          <div className="flex justify-center items-center p-10">
+            <Link href="/allprojects">
+              <button type="submit" className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-extrabold text-slate-400 transition-colors focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">all projects here &rarr;
+              </button>
+            </Link>
           </div>
+
+
+
+
+          <span className="flex justify-center items-center text-4xl font-bold text-[#4b4c4f]">Tech Stacks</span><br />
+          <Techstacks />
+          <br />
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div className="md:pt-10 md:h-[60vh] h-[30vh] bg-gradient-to-bl from-[#1a1a1a] to-[#000000]">
+          <AllCertificate />
+        </div>
 
         {/* </BackgroundLines > */}
       </div >
