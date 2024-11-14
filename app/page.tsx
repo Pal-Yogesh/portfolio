@@ -37,7 +37,7 @@ export default function Home() {
         > */}
 
         <div
-          className="flex w-full pb-24 bg-[url('/assets/mobilehomebg.svg')] md:bg-[url('/assets/homebg.svg')] bg-cover bg-center"
+          className="flex w-full pb-24 bg-[url('/assets/mobilehomebg.svg')] md:bg-[url('/assets/homebg.svg')] h-[100vh] md:h-auto bg-cover bg-center"
         >
 
 
