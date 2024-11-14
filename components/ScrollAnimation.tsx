@@ -66,66 +66,65 @@ export default function ScrollAnimation() {
           className={`h-[1440px] w-[1440px]  border  flex gap-8 justify-center items-center absolute rounded-[50%] card top-[50%] [&>div]:relative [&>div]:top-[-50%] [&>div]:left-[41%]`}
         >
           <div className="card1 bg-[#1a1a1a] w-[300px] h-[350px] rounded-2xl flex flex-col items-center justify-center shadow-xl">
-            {" "}
+            <Link href="https://www.boardingadmissions.com/" target="_blank">
+           
             <img
               className="w-[200px] h-[200px]"
               src="/assets/Boardinglogo.svg"
               alt="project"
             />{" "}
-            <Link href="https://www.boardingadmissions.com/" target="_blank">
               <button className="w-[220px] mt-5 text-[1rem] text-neutral-500 dark:text-neutral-400 h-[50px] rounded-lg bg-[#1a1a1a]">
                 BOARDING ADMISSIONS
               </button>
             </Link>
           </div>
           <div className="card2 bg-[#1a1a1a] w-[300px] h-[350px] rounded-2xl flex flex-col items-center justify-center shadow-xl">
-            {" "}
+            
+            <Link href="https://www.goedu.in/" target="_blank">
             <img
               className="w-[200px] h-[200px]"
               src="/assets/goEdulogo.svg"
               alt="project"
             />{" "}
-            <Link href="https://www.goedu.in/" target="_blank">
               <button className="w-[220px] mt-5 text-[1rem] text-neutral-500 dark:text-neutral-400 h-[50px] rounded-lg bg-[#1a1a1a]">
                 GOEDU
               </button>
             </Link>
           </div>
           <div className="card3 bg-[#1a1a1a] w-[300px] h-[350px] rounded-2xl flex flex-col items-center justify-center shadow-xl">
-            {" "}
+            <Link href="https://chat-web-2rrk.onrender.com" target="_blank">
+            
             <img
               className="w-[200px] h-[200px]"
               src="/assets/chat-4-512.png"
               alt="project"
-            />{" "}
-            <Link href="https://chat-web-2rrk.onrender.com" target="_blank">
-              {" "}
+            />
               <button className="w-[220px] mt-5 text-[1rem] text-neutral-500 dark:text-neutral-400 h-[50px] rounded-lg bg-[#1a1a1a]">
                 CHAT APP
               </button>
             </Link>
           </div>
           <div className="card4 bg-[#1a1a1a] w-[300px] h-[350px] rounded-2xl flex flex-col items-center justify-center shadow-xl">
-            {" "}
+            <Link href="https://github-finder-next-js.vercel.app/" target="_blank">
+            
             <img
               className="w-[200px] h-[200px]"
               src="/assets/icons8-github.svg"
               alt="project"
-            />{" "}
-            <Link href="https://github-finder-next-js.vercel.app/" target="_blank">
+            />
               <button className="w-[220px] mt-5 text-[1rem] text-neutral-500 dark:text-neutral-400 h-[50px] rounded-lg bg-[#1a1a1a]">
                 GITHUB USER FINDER
               </button>
             </Link>
           </div>
           <div className="card5 bg-[#1a1a1a] w-[300px] h-[350px] rounded-2xl flex flex-col items-center justify-center shadow-xl">
-            {" "}
+         
+            <Link href="https://pal-yogesh.github.io/Game-Pedia/" target="_blank">
             <img
               className="w-[200px] h-[200px]"
               src="/assets/gamepedia.png"
               alt="project"
-            />{" "}
-            <Link href="https://pal-yogesh.github.io/Game-Pedia/" target="_blank">
+            />
               <button className="w-[230px] mt-5 text-[1rem] text-neutral-500 dark:text-neutral-400 h-[50px] rounded-lg bg-[#1a1a1a]">
                 GAME PEDIA
               </button>
