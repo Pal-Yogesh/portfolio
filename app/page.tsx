@@ -58,9 +58,9 @@ export default function Home() {
               I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
               Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
             </div>
-            {/* <div className="flex justify-center items-center"> */}
+            <div className="flex justify-center items-center  mt-12">
 
-            <div className="flex justify-center items-center pt-14 md:m-5  cursor-pointer"
+            <div className="flex justify-center items-center   cursor-pointer"
 
             >
 
@@ -71,7 +71,7 @@ export default function Home() {
                 className="inline-flex cursor-pointer  h-14 w-40 text-lg animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-extrabold text-slate-400 transition-colors focus:outline-none focus:ring-0 focus:ring-slate-400 focus:ring-offset-1 focus:ring-offset-slate-50">Resume
               </a>
 
-              {/* </div> */}
+              </div>
             </div>
           </div>
           <div className="w-[50%] hidden md:block ">
