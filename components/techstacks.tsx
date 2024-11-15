@@ -2,41 +2,8 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "./ui/animated-tooltip";
-import IconCloud from "@/components/ui/icon-cloud";
 
 
-const slugs = [
-    "typescript",
-    "javascript",
-    "dart",
-    "java",
-    "react",
-    "flutter",
-    "android",
-    "html5",
-    "css3",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "prisma",
-    "amazonaws",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    "testinglibrary",
-    "jest",
-    "cypress",
-    "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "visualstudiocode",
-    "androidstudio",
-    "sonarqube",
-    "figma",
-];
 const webdev_frontend = [
     {
         id: 1,
@@ -307,14 +274,7 @@ export function Techstacks() {
                     </div>
                 </div>
             </div>
-            <div className="hidden  md:flex justify-center items-center pb-20">
-
-                <div className="w-[400px] h-[340px] flex justify-center items-center">
-
-                    <IconCloud iconSlugs={slugs} />
-                </div>
-
-            </div>
+           
         </div>
     );
 }
