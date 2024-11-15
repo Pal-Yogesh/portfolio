@@ -53,7 +53,7 @@ export default function Home() {
 
             <FlipWords words={words} />
 
-            <div className="text-xs px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-300 pt-4 md:pt-8 text-justify">
+            <div className="text-[18px] px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-300 pt-4 md:pt-8 text-justify">
 
               I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
               Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
