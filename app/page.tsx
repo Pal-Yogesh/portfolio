@@ -37,12 +37,12 @@ export default function Home() {
         > */}
 
         <div
-          className="flex w-full pb-24 bg-[url('/assets/mobilehomebg.svg')] md:bg-[url('/assets/homebg.svg')] h-[100vh] md:h-auto bg-cover bg-center"
+          className="flex w-full pb-10 md:pb-24 bg-[url('/assets/mobilehomebg.svg')] md:bg-[url('/assets/homebg.svg')] h-[100%] md:h-auto bg-cover bg-center"
         >
 
 
           <div className="w-full md:w-[50%] ">
-            <div className="md:px-20 px-4 pt-3">
+            <div className="md:px-20 px-3 pt-3">
 
               <Image
                 src="/assets/yogeshlogo.png"
@@ -53,14 +53,14 @@ export default function Home() {
 
             <FlipWords words={words} />
 
-            <div className="text-[18px] px-10 md:px-24 font-normal text-neutral-600 dark:text-neutral-300 pt-4 md:pt-8 text-justify">
+            <div className="text-xl px-8 md:px-24 font-normal text-neutral-600 dark:text-neutral-300 pt-4 md:pt-8 text-justify">
 
               I&apos;m a skilled Front-end Developer specializing in Next.js, Tailwind CSS, and the MERN stack, focused on creating visually engaging, responsive user experiences. <br /> <br />
               Driven by a passion for innovation, I tackle complex technical challenges with creative, scalable solutions, staying up-to-date on industry trends to deliver modern and efficient web applications.
             </div>
-            <div className="flex justify-center items-center  mt-12">
+            <div className="flex justify-center items-center mt-10  md:mt-12">
 
-            <div className="flex justify-center items-center   cursor-pointer"
+            <div className="flex justify-center items-center   cursor-pointer "
 
             >
 
@@ -79,7 +79,7 @@ export default function Home() {
             <div className="flex justify-center items-center mt-32 ">
 
 
-              <Image src="/assets/design.gif" width={1000} height={1000} alt="gif" className="w-[750px] h-[550px] z-[9999]" />
+              <Image src="/assets/design.gif" unoptimized width={1000} height={1000} alt="gif" className="w-[750px] h-[550px] z-[9999]" />
 
               <div className="flex justify-center items-center mt-[350px] absolute ">
 
