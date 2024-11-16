@@ -67,7 +67,11 @@ export function AllCertificate() {
       </div>
 
       <div className="md:hidden">
-        <div className="flex flex-col justify-start items-start overflow-hidden pt-10 bg-gradient-to-b from-[#1a1a1a]  to-[#000000] px-6 md:px-8 lg:px-10">
+        <div className="flex flex-col justify-start items-start overflow-hidden pt-10  px-6 md:px-8 lg:px-10"
+          style={{
+            background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
+          }}
+        >
           {/* <div> */}
 
           <div className="text-4xl font-bold text-[#4b4c4f] mx-auto">Certificates</div>
