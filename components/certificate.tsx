@@ -72,10 +72,10 @@ export function AllCertificate() {
             background: "linear-gradient(to bottom, rgba(2, 71, 142, 1) -180%, rgba(0, 0, 0, 1) 100%)",
           }}
         >
-          {/* <div> */}
+          
 
           <div className="text-4xl font-bold text-[#4b4c4f] mx-auto">Certificates</div>
-          {/* </div> */}
+         
           <Swiper
             effect={"cards"}
             grabCursor={true}
