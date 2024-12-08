@@ -31,6 +31,12 @@ const digital360Projects: Project[] = [
         stack: ["/assets/vitejs.png", "/assets/tailwind.png"],
         liveLink: "https://prashilrawat.in/",
     },
+    {
+        name: "Mayank Gaur Portfolio",
+        description: "A professional portfolio, built with Next.js for optimized performance and Tailwind CSS for a modern, responsive design. The integration of EmailJS ensures seamless communication through a user-friendly contact form.",
+        stack: ["/assets/next-js.svg", "/assets/tailwind.png","/assets/emailjs.svg"],
+        liveLink: "https://mayank-portfolio-jet.vercel.app/",
+    },
 ];
 
 
