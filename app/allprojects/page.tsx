@@ -46,7 +46,7 @@ const selfProjects: Project[] = [
         name: "Online Code Compiler",
         description: "An advanced online code compiler offering a full suite of features for developers. This tool allows users to write, compile, and execute code in real-time, with options to save, download, and delete code snippets directly from a personalized dashboard. Users can manage their projects, review past code, user-friendly interface styled with Tailwind CSS. This project demonstrates a powerful, full-stack development experience with Prisma and PostgreSQL.",
         stack: ["/assets/typescript.svg", "/assets/tailwind.png", "/assets/nodejs.png", "/assets/express.png", "/assets/postgresql-icon.svg", "/assets/prisma-3.svg"],
-
+        liveLink: "https://onlinecodecompiler-steel.vercel.app/",
         githubLink: "https://github.com/Pal-Yogesh/onlinecodecompiler"
     },
 
