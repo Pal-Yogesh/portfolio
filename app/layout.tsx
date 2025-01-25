@@ -30,6 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <script async src="https://cdn.seline.so/seline.js" data-token="16c6158aa7fc8b5"></script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
