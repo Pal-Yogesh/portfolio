@@ -21,7 +21,7 @@ import GetInTouch from "@/components/getintouch";
 
 
 export default function Home() {
-  const words = ["<Full Stack Developer />", "<Web Developer />", "<Front-End Developer />"];
+  const words = ["<Full Stack Developer />", "<Web Developer />", "<Freelancer />"];
   return (
     <>
 
