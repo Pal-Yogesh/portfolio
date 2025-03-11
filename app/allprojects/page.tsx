@@ -38,8 +38,6 @@ const digital360Projects: Project[] = [
         liveLink: "https://mayank-portfolio-jet.vercel.app/",
     },
 ];
-
-
 const selfProjects: Project[] = [
 
     {
