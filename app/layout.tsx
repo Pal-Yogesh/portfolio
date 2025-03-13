@@ -14,7 +14,6 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-
 export const metadata: Metadata = {
   title: "Yogesh Pal",
   description: "portfolio of Yogesh",
